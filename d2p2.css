@@ -1,0 +1,23 @@
+.left{
+    height: 750px;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.right{
+    float: left;
+    height: 750px;
+    width: 60%;
+}
+.lefttop{
+    float: inline-start;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+.contact{
+    margin-top: 10px;
+}
+.ajay{
+    text-align: center;
+}

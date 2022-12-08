@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label>FirstNo:</label><input type="number" id="fno"> <br>
+        <label>SecondNo:</label><input type="number" id="sno" > <br>   <!-- onblur="my.add()" -->
+        <br>
+        <label>Result</label><input type="text" name="result" id="result" onfocus="my.add()"> <!-- onfocus -->
+    </form>
+    <script>
+        class Myclass
+        {
+            constructor(){}
+            add()
+            {
+                // alert("test");
+                var a=document.getElementById("fno").value;
+                var b=document.getElementById("sno").value;
+                var c= parseInt(a)+ parseInt(b);
+                document.getElementById("result").value=c;
+            }
+            
+
+        }
+        var my=new Myclass();
+    </script>
+</body>
+</html>

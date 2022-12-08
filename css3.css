@@ -1,0 +1,112 @@
+body{
+    background-color:gray;
+    width: 100%;
+    height: 950px;
+    padding: 0px;
+    margin: 0px;
+}
+.main
+{
+    background-color: blue;
+    width: 100%;
+    height: 950px;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: rgb(129, 6, 86);
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: aquamarine;
+}
+.container{
+    background-color: azure;
+    height: 600px;
+    width: 100%;
+}
+footer{
+    background-color: blueviolet;
+    height:200px ;
+    width: 100%;
+}
+.left{
+    float: left;
+    background-color: rgb(10, 91, 161);
+    height: 600px;
+    width: 25%;
+}
+.center{
+    float: left;
+    background-color: brown;
+    height: 600px;
+    width: 37.5%;
+}
+.right{
+    float: left;
+    background-color: rgb(181, 80, 8);
+    height: 600px;
+    width: 37.5%;
+}
+.lefttop{
+    float: inline-start;
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+    border-radius: 50%;
+}
+.leftbottum{
+    float: inline-end;
+    background-color: aquamarine;
+    height: 300px;
+    width: 100%;
+}
+.centerleft{
+    float: left;
+    background-color: black;
+    height: 300px;
+    width: 30%;
+
+}
+.centermid{
+    float: left;
+    height: 300px;
+    width: 30%;
+    background-color: lavenderblush;
+}
+ .footertop{ 
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 100%;
+
+}
+.footerbottum{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%
+}

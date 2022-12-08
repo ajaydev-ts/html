@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <center>
+            <h2>Grade Checker</h2>
+            <table>
+                <tr>
+                    <th>Mark</th>
+                    <td>
+                        <input type="number" placeholder="Enter your mark" id="mrk">
+                    </td>
+
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <input type="button" name="but" id="but" onclick="grade()" value="Grade">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Grade</th>
+                    <td><input type="text" placeholder="Enter your grade" id="grd"></td>
+                </tr>
+            </table>
+        </center>
+    </form>
+    <script>
+        function grade(){
+          var mark=parseInt(document.getElementById("mrk").value);
+          if(mark>90){
+             document.getElementById("grd").value="A+"
+          }
+          else if(mark<91 && mark>80){
+
+             document.getElementById("grd").value="A"
+          }
+          else if(mark<81 && mark>70){
+             document.getElementById("grd").value="B+"
+
+          }
+          else if(mark<71 && mark>60){
+             document.getElementById("grd").value="B"
+            
+        }
+        else if(mark<61 && mark>50){
+             document.getElementById("grd").value="C"
+        }
+        else if(mark<51 && mark>40){
+             document.getElementById("grd").value="D"
+        }
+        else if(mark<41){
+             document.getElementById("grd").value="F"
+
+        }
+   
+        
+    }
+
+    </script>
+</body>
+</html>

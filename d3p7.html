@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label>FirstNo:</label><input type="number" name="fname" id="fname"> <br>
+        <label>SecondNo</label><input type="number" name="sname" id="sname"> <br>
+        <button type="button" onclick="add()" name="but">ADD
+        </button> 
+        <!-- <input type="button" name="b1"    //or inganeem kodkkam
+        onclick="add()" id="b1" value="ADD"> -->
+        
+        <br>
+        <label>Result</label><input type="text" name="rname" id="rname">
+    </form>
+    <script>
+        function add()
+            {
+                var a=document.getElementById("fname").value;
+                var b=document.getElementById("sname").value;
+                var c=parseInt(a)+parseInt(b);
+                document.getElementById("rname").value=c;
+            
+            }
+    </script>
+</body>
+</html>

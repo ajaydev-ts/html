@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <!-- <label for="t1">firstname </label>
+
+        <input type="text" name="t1" id="t1"> <br> -->
+        <!-- number <input type="number"> <br> -->
+        email <input type="text" id="uname"><br>
+<!--        
+        <input type="color"><br> -->
+         password<input type="password" id="pass"><br>
+         <input type="button" name="t2" id="t2" value="Submit" onclick="login()"><br>
+        <!-- text <input type="text"><br> -->
+        <!-- Gender<input type="radio">Male
+        <input type="radio">Female -->
+        <!-- <input type="checkbox"> -->
+    </form>
+    <script>
+        function login()
+            {
+                var uname=document.getElementById("uname").value;
+                var pass=document.getElementById("pass").value;
+                if(uname=="admin" && pass=="admin")
+                {
+                    window.location="d4p7.html?name="+uname
+                    // alert("Surprise");
+                    // // window.location="homepg.html";
+                }
+            }
+    </script>
+</body>
+</html>

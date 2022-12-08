@@ -1,0 +1,89 @@
+body{
+    background-image: url('bg.jpg');
+    height: 950px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logoimg{
+    float: left;
+    height: 58px;
+    width: 92px;
+}
+li{
+    float: left;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+}
+.navbar{
+    padding-left: 479px;
+}
+.search{
+    float: right;
+    padding-top: 20px;
+}
+.dev
+{
+    height: 280px;
+    font-style: italic;
+    
+}
+.club
+{
+    margin-bottom: -60px;
+
+}
+h1{
+    padding-left: 25px;
+}
+.content{
+    color: white;
+    padding-left: 25px;
+    width: 700px;
+    /* float: left; */
+}
+.blackform{
+    float: right;
+    padding: 0px;
+    /* padding-right: 40px; */
+    background-color: black;
+    height: 320px;
+    width: 300px;
+    /* padding-bottom: 90px; */
+    margin-right: 78px;
+    margin-top: -259px;
+    text-align: center;
+}
+.bfitem{
+    text-align: center;
+    margin-top: 100px;
+}
+.login{
+    background-color: white;
+    color: aqua;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 100px;
+
+}
+.noacc{
+    color: white;
+}
+.signup{
+    color: aqua;
+}
+.abc{
+    background-color: black;
+}

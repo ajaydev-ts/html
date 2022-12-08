@@ -1,0 +1,40 @@
+.top{
+    background-color: black;
+    height:41px;
+    width:100%;
+    /* margin:0px;
+    padding: 0px; */
+    color: white;   
+}
+.container{
+    background-color: aliceblue;
+}
+.main{
+    background-color: whitesmoke;
+}
+body{
+    /* margin:0px; */
+    /* padding: 0px; */
+}
+li{
+    float: left;
+    list-style: none; 
+    
+}
+a{
+    display: block;
+    padding:14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height:41px;
+    width:100%;
+    /* margin:0px;
+    padding: 0px; */
+    color: white; 
+}

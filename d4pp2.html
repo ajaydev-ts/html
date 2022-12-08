@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <center>
+            <h2>Grade Checker</h2>
+            <table>
+                <tr>
+                    <th>Mark1</th>
+                    <td>
+                        <input type="number" placeholder="Enter your mark" id="mrk1">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Mark2</th>
+                    <td>
+                        <input type="number" placeholder="Enter your mark" id="mrk2">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Mark3</th>
+                    <td>
+                        <input type="number" placeholder="Enter your mark" id="mrk3">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Mark4</th>
+                    <td>
+                        <input type="number" placeholder="Enter your mark" id="mrk4">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Mark5</th>
+                    <td>
+                        <input type="number" placeholder="Enter your mark" id="mrk5">
+                    </td>
+
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <input type="button" name="but" id="but" onclick="grade()" value="Grade">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Grade</th>
+                    <td><input type="text" placeholder="Enter your grade" id="grd"></td>
+                </tr>
+            </table>
+        </center>
+    </form>
+    <script>
+        function grade(){
+          var mark1=parseInt(document.getElementById("mrk1").value);
+          var mark2=parseInt(document.getElementById("mrk2").value);
+          var mark3=parseInt(document.getElementById("mrk3").value);
+          var mark4=parseInt(document.getElementById("mrk4").value);
+          var mark5=parseInt(document.getElementById("mrk5").value);
+          var mark=(mark1+mark2+mark3+mark4+mark5)/5;
+          alert(mark);
+          if(mark>90){
+             document.getElementById("grd").value="A+"
+          }
+          else if(mark<91 && mark>80){
+
+             document.getElementById("grd").value="A"
+          }
+          else if(mark<81 && mark>70){
+             document.getElementById("grd").value="B+"
+
+          }
+          else if(mark<71 && mark>60){
+             document.getElementById("grd").value="B"
+            
+        }
+        else if(mark<61 && mark>50){
+             document.getElementById("grd").value="C"
+        }
+        else if(mark<51 && mark>40){
+             document.getElementById("grd").value="D"
+        }
+        else if(mark<41){
+             document.getElementById("grd").value="F"
+
+        }
+   
+        
+    }
+
+    </script>
+</body>
+</html>
